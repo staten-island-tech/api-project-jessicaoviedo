@@ -1,10 +1,11 @@
-const URL = "https://bobsburgers-api.herokuapp.com/characters/";
+const URL =
+  "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs?number=1";
 
 async function getData(URL) {
   try {
     const response = await fetch(URL);
     const data = await response.json(); //makes the data into JSON object that we can use
-    console.log(data[0]);
+    document.getElementById("api-response").textContent = data;
   } catch (error) {
     console.log(error);
   }
