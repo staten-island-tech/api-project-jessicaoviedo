@@ -1,0 +1,8 @@
+.art-card{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 5rem;
+    border: 5px solid black;
+    background-color: white;
+}

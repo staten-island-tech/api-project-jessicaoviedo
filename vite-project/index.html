@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>fetch api</title>
+    <title>api project</title>
   </head>
+  <section class="search-bar">
+    <div class="btn">
+      <h1 class="title">art pieces</h1>
+      <h3 class="subtitle">here you can search for the names of art pieces from the art institute of chicago!</h3>
+      <form id="search-form" class="search-form" role="search">
+        <input type="input" id="query" class="query" name="q" placeholder="search here...">
+        <button type="submit" class="search">submit</button>
+      </form>
+    </div>
+    <p class="display"></p>
+  </section>
   <body>
-    <section>
-      <button id="gryffindor-btn">Gryffindors</button>
-      <button id="slytherin-btn">Slytherins</button>
-      <button id="ravenclaw-btn">Ravenclaws</button>
-      <button id="hufflepuff-btn">Hufflepuffs</button>
-    </section>
-    open the console!
-    <div id="app"></div>
-    <h2 id="api-response"></h2>
-    <section class="display" id="display"></section>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
